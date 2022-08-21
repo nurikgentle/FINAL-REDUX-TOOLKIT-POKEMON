@@ -1,0 +1,45 @@
+.red {
+    max-width: 1440px;
+    min-width: 400px;
+    margin: auto;
+    height: 87px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C83C29;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 60px;
+}
+.red a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.red ul {
+    list-style: none;
+}
+.active {
+    color: #FFFFFF;
+}
+.red a:hover {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.black {
+    max-width: 1440px;
+    min-width: 400px;
+    height: 6px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+
+.active-link {
+    color: red;
+}

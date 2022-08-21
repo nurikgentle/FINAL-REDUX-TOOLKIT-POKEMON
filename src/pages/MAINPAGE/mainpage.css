@@ -1,0 +1,245 @@
+.wrapper-all {
+    max-width: 1440px;
+    min-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.sidebar {
+    width: 28.5%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    text-align: center;
+}
+.sidebar h3 {
+    cursor: pointer;
+}
+.all-pokemons {
+    width: 71.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.divider {
+    height: 100%;
+    width: 6px;
+    background-color: black;
+    position: absolute;
+    left: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.round {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 6px solid #000000;
+    transform: translateX(-20px);
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+}
+.sorting {
+    width: auto;
+    height: 80px;
+}
+.sorting h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121212;
+    margin-top: 32px;
+    margin-left: 56px;
+}
+.three-sortings {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F3F;
+    cursor: pointer;
+}
+.three-sortings a {
+    margin-left: 56px;
+    margin-top: 10px;
+}
+.sidebar h3 {
+    margin-top: 32px;
+    margin-right: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121212;
+}
+.new {
+    position: relative;
+    left: 32px;
+    margin-bottom: 20px;
+}
+.vector {
+    position: relative;
+    left: 130px;
+    bottom: 23px;
+    cursor: pointer;
+}
+@media (max-width: 1045px) {
+    .vector {
+        left: 70px;
+    }
+}
+@media (max-width: 600px) {
+    .vector {
+        left: 50px;
+    }
+}
+.tip {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121212;
+    margin-right: 115px;
+}
+.bottom {
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 70px;
+}
+
+h4 {
+    position: relative;
+    right: 26px;
+}
+.special {
+    right: 20px;
+}
+#checkboxx {
+    cursor: pointer;
+    border-radius: 20px;
+}
+.radio {
+    cursor: pointer;
+}
+.label {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* POKEMONS */
+.roundd {
+    height: 400px;
+    width: 400px;
+    border-radius: 214px;
+    border: 6px solid #121212;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    z-index: 10;
+}
+.roundd img {
+    height: 300px;
+    width: 380px;
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+.roundd p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #121212;
+    position: relative;
+    top: 415px;
+    left: 130px;
+    display: inline;
+}
+.pokemons a {
+    text-decoration: none;
+}
+.pokemons {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    margin-left: 56px;
+    grid-column-gap: 44px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+@media(max-width: 1300px) {
+    .pokemons {
+        grid-template-columns: repeat(1, 2fr);
+        position: relative;
+        right: 30px;
+        margin-top: 50px;
+    }
+
+}
+
+
+.link {
+    text-decoration: none;
+    color: #121212;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.active {
+    transform: rotateX(180deg);
+}
+.spinner {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.spinner .spin {
+    position: relative;
+    top: 250px;
+}
+@media(max-width: 1320px) {
+    .spinner .spin {
+        right: 50%;
+    }
+}
+@media(max-width: 1135px) {
+    .spinner .spin {
+        right: 90%;
+    }
+}
+@media(max-width: 930px) {
+    .spinner .spin {
+        right: 120%;
+    }
+}
+@media(max-width: 880px) {
+    .spinner .spin {
+        right: -100%;
+        top: 120px;
+    }
+}
+@media(max-width: 705px) {
+    .spinner .spin {
+        right: -70%;
+        top: 120px;
+    }
+}
