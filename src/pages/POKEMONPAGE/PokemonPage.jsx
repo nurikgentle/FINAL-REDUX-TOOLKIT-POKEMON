@@ -22,6 +22,10 @@ const PokemonPage = () => {
     }, 500)
   }, [])
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='indPoke'>
         <div className='beginning'>
